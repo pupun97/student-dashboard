@@ -52,7 +52,7 @@ class StudentView(ModelView):
             'validators': [validators.required()]
         },
         'pin': {
-            'svalidators': [validators.required()]
+            'validators': [validators.required()]
         }
     }
 

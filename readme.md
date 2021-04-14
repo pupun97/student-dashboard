@@ -5,7 +5,7 @@ Steps to start this project
 ___________________________________________________________
 SETUP VIRTUAL ENV
 
-a. "python3 virtualenv venv"
+a. "python3 -m venv venv"
    
 b. "source venv/bin/activate"
    
@@ -16,10 +16,15 @@ ________________________________________________________________
 INTIALISE DB
 
 a. python3 manage.py db init
+
 b. python3 manage.py db migrate
+
 c. python3 manage.py db upgrade
 
 ________________________________________________________________
 
 To runserver
+
 a. python3 manage.py runserver
+
+b. Base url - localhost:8000/admin

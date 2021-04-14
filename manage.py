@@ -5,7 +5,7 @@ import flask_app.model
 
 manager = Manager(app)
 manager.add_command('db', MigrateCommand)
-manager.add_command("runserver", Server(port=8000, threaded=True, use_debugger=True))
+manager.add_command("runserver", Server(port=8000, threaded=True, use_debugger=False))
 
 
 if __name__ == '__main__':
